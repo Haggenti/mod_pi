@@ -7,3 +7,5 @@ nano Makefile
 make && sudo make install  
 sudo systemctl enable pisound-btn  
 sudo systemctl start pisound-btn  
+
+sudo nano /etc/pisound.conf

@@ -43,13 +43,13 @@ pushd browsepy
 sudo pip3 install ./
 
 #Mod-host
-pushd $(mktemp -d) && git clone https://github.com/moddevices/mod-host.git
+pushd $(mktemp -d) && git clone --branch hotfix-1.11 https://github.com/moddevices/mod-host.git
 pushd mod-host
 make -j 4
 sudo make install
 
 #Mod-ui
-pushd $(mktemp -d) && git clone  https://github.com/moddevices/mod-ui.git
+pushd $(mktemp -d) && git clone --branch hotfix-1.12 https://github.com/moddevices/mod-ui.git
 pushd mod-ui
 chmod +x setup.py
 cd utils

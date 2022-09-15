@@ -1,9 +1,11 @@
 Thanks to https://github.com/CarloCattano for initial working script.
 
+Works on raspberry 3B+/4
 Added Fluidsynth fix  
 Added some plugin dependancies  
 Added hotspot script  
-Disabled some unused services (bluetooth etc.)
+Disabled some unused services (bluetooth etc.)  
+Added info for using real time kernel
 
 
 ##### [MOD Devices](https://moddevices.com/) software install script for Raspberry OS 64bit with [PiSound hat](https://blokas.io/pisound/) from Blokas Labs

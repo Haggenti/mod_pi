@@ -1,0 +1,27 @@
+Compile plugins for 64 aarch64 raspberry pi 4
+this plugins are included on the mod-plugin-builder repo
+made for the mod devices hardware
+on a debian/ubuntu system or VM (I use a debian lite image on Oracle VirtualBox). Approx time 3 hours or more
+
+sudo apt install acl bc curl cvs git mercurial rsync subversion wget \
+bison bzip2 flex gawk gperf gzip help2man nano perl patch tar texinfo unzip \
+automake binutils build-essential cpio libtool libncurses-dev pkg-config python-is-python3 libtool-bin
+
+git clone --recursive https://github.com/moddevices/mod-plugin-builder
+
+cd mod-plugin-builder
+
+./bootstrap.sh raspberrypi4
+
+#remove problematic plugins like wolf-shaper-labs lv2 ( asks for github credentials ) and others
+rm plugins/package/wolf-shaper-labs -rf   
+rm plugins/package/zeroconvo-labs -rf
+rm plugins/package/zynaddsubfx-labs* -rf
+
+for f in plugins/package/*; do ./build raspberrypi4 $f; done | tee build.log
+
+Once done the plugins are at:
+
+$HOME/mod-workdir/raspberrypi4/plugins 
+
+I use this plugins on raspberry pi setup + PiSound interface. You can check my install script here

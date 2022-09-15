@@ -1,3 +1,5 @@
+Thanks to https://github.com/CarloCattano for initial working script.
+
 Added Fluidsynth fix  
 Added some plugin dependancies  
 Added hotspot script  

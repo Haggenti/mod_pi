@@ -1,3 +1,9 @@
+Added Fluidsynth fix  
+Added some plugin dependancies  
+Added hotspot script  
+Disabled some unused services (bluetooth etc.)
+
+
 ##### [MOD Devices](https://moddevices.com/) software install script for Raspberry OS 64bit with [PiSound hat](https://blokas.io/pisound/) from Blokas Labs
 *** 
 

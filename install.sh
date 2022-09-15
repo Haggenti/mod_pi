@@ -63,7 +63,7 @@ sudo ./setup.py install
 #make -j4
 #sudo make install PREFIX=/usr
 
-cd /home/raspberryUsername/mod-PiSound
+cd /home/raspberryUsername/mod_pi
 
 #Create Services
 sudo cp *.service /etc/systemd/system/

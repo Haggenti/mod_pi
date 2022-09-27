@@ -40,7 +40,7 @@ your user will be added to the audio group and assigned rtprio as per [Linux Aud
 This is a modification from the original to work with PiSound hat and some other changes to make it work good on a fresh raspberry pi OS install. 
 
 ### Using other soundcards
->+ if you wish to use it with another soundcard (say an 8 ch one for instance :-) just replace the interface name in [this line](https://github.com/CarloCattano/mod-PiSound/blob/180841fd0fb1f49f636e00f46230d9f829b783c4/jack.service#L14) with your interface name instead of ```hw:pisound```
+>+ if you wish to use it with another soundcard (say an 8 ch one for instance :-) just replace the interface name in [this line](https://github.com/philus88/mod_pi/blob/d1a738e58087661e8212bd376f3895dc0ea9b3ee/jack.service#L14) with your interface name instead of ```hw:pisound```
 
 &nbsp; 
 

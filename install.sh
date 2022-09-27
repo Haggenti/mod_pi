@@ -88,6 +88,9 @@ sudo rm -rf /tmp/*
 sudo apt install libpulse-dev
 sudo mv libfluidsynth.so.1 /usr/lib/aarch64-linux-gnu/libfluidsynth.so.1
 
+#calf delay
+sudo cp /lib/aarch64-linux-gnu/libpcre.so /lib/aarch64-linux-gnu/libpcre.so.1
+
 #Plugin Libs
 sudo apt install libc6-dev libcairo2-dev libx11-dev x11proto-dev lv2-dev liblilv-dev libfluidsynth-dev
 
